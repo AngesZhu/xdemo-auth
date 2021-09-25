@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  profiles: dev
+
+nature:
+  restApi:
+    enabled: true
+
+logging:
+  level:
+    com.xdemo.auth: debug

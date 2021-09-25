@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  profiles: prod
+
+nature:
+  restApi:
+    enabled: true
+
+logging:
+  level:
+    com.xdemo.auth: info
